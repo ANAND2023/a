@@ -30,7 +30,7 @@ const Calculator = () => {
       <div className="input">{expression}</div>
    </div>
       <div className="row">
-        <button className="button" onClick={() => handleButtonClick("7")}>
+        <button className="button cursor-pointer" onClick={() => handleButtonClick("7")}>
           7
         </button>
         <button className="button" onClick={() => handleButtonClick("8")}>
